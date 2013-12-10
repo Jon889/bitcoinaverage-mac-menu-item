@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABD2194E1857DF1C0031FFC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD2194D1857DF1C0031FFC1 /* Cocoa.framework */; };
+		ABD219581857DF1C0031FFC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABD219561857DF1C0031FFC1 /* InfoPlist.strings */; };
+		ABD2195A1857DF1C0031FFC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD219591857DF1C0031FFC1 /* main.m */; };
+		ABD2195E1857DF1C0031FFC1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ABD2195C1857DF1C0031FFC1 /* Credits.rtf */; };
+		ABD219611857DF1C0031FFC1 /* BTCAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD219601857DF1C0031FFC1 /* BTCAAppDelegate.m */; };
+		ABD219641857DF1C0031FFC1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD219621857DF1C0031FFC1 /* MainMenu.xib */; };
+		ABD219661857DF1C0031FFC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD219651857DF1C0031FFC1 /* Images.xcassets */; };
+		ABD2196D1857DF1C0031FFC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD2196C1857DF1C0031FFC1 /* XCTest.framework */; };
+		ABD2196E1857DF1C0031FFC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD2194D1857DF1C0031FFC1 /* Cocoa.framework */; };
+		ABD219761857DF1C0031FFC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABD219741857DF1C0031FFC1 /* InfoPlist.strings */; };
+		ABD219781857DF1C0031FFC1 /* bitcoinaverageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD219771857DF1C0031FFC1 /* bitcoinaverageTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABD2196F1857DF1C0031FFC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD219421857DF1C0031FFC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD219491857DF1C0031FFC1;
+			remoteInfo = bitcoinaverage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABD2194A1857DF1C0031FFC1 /* bitcoinaverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitcoinaverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD2194D1857DF1C0031FFC1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ABD219501857DF1C0031FFC1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ABD219511857DF1C0031FFC1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ABD219521857DF1C0031FFC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABD219551857DF1C0031FFC1 /* bitcoinaverage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bitcoinaverage-Info.plist"; sourceTree = "<group>"; };
+		ABD219571857DF1C0031FFC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABD219591857DF1C0031FFC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABD2195B1857DF1C0031FFC1 /* bitcoinaverage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bitcoinaverage-Prefix.pch"; sourceTree = "<group>"; };
+		ABD2195D1857DF1C0031FFC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ABD2195F1857DF1C0031FFC1 /* BTCAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCAAppDelegate.h; sourceTree = "<group>"; };
+		ABD219601857DF1C0031FFC1 /* BTCAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCAAppDelegate.m; sourceTree = "<group>"; };
+		ABD219631857DF1C0031FFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABD219651857DF1C0031FFC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABD2196B1857DF1C0031FFC1 /* bitcoinaverageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitcoinaverageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD2196C1857DF1C0031FFC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABD219731857DF1C0031FFC1 /* bitcoinaverageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bitcoinaverageTests-Info.plist"; sourceTree = "<group>"; };
+		ABD219751857DF1C0031FFC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABD219771857DF1C0031FFC1 /* bitcoinaverageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bitcoinaverageTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD219471857DF1C0031FFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2194E1857DF1C0031FFC1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD219681857DF1C0031FFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2196E1857DF1C0031FFC1 /* Cocoa.framework in Frameworks */,
+				ABD2196D1857DF1C0031FFC1 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD219411857DF1C0031FFC1 = {
+			isa = PBXGroup;
+			children = (
+				ABD219531857DF1C0031FFC1 /* bitcoinaverage */,
+				ABD219711857DF1C0031FFC1 /* bitcoinaverageTests */,
+				ABD2194C1857DF1C0031FFC1 /* Frameworks */,
+				ABD2194B1857DF1C0031FFC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD2194B1857DF1C0031FFC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2194A1857DF1C0031FFC1 /* bitcoinaverage.app */,
+				ABD2196B1857DF1C0031FFC1 /* bitcoinaverageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD2194C1857DF1C0031FFC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2194D1857DF1C0031FFC1 /* Cocoa.framework */,
+				ABD2196C1857DF1C0031FFC1 /* XCTest.framework */,
+				ABD2194F1857DF1C0031FFC1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABD2194F1857DF1C0031FFC1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD219501857DF1C0031FFC1 /* AppKit.framework */,
+				ABD219511857DF1C0031FFC1 /* CoreData.framework */,
+				ABD219521857DF1C0031FFC1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ABD219531857DF1C0031FFC1 /* bitcoinaverage */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2195F1857DF1C0031FFC1 /* BTCAAppDelegate.h */,
+				ABD219601857DF1C0031FFC1 /* BTCAAppDelegate.m */,
+				ABD219621857DF1C0031FFC1 /* MainMenu.xib */,
+				ABD219651857DF1C0031FFC1 /* Images.xcassets */,
+				ABD219541857DF1C0031FFC1 /* Supporting Files */,
+			);
+			path = bitcoinaverage;
+			sourceTree = "<group>";
+		};
+		ABD219541857DF1C0031FFC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD219551857DF1C0031FFC1 /* bitcoinaverage-Info.plist */,
+				ABD219561857DF1C0031FFC1 /* InfoPlist.strings */,
+				ABD219591857DF1C0031FFC1 /* main.m */,
+				ABD2195B1857DF1C0031FFC1 /* bitcoinaverage-Prefix.pch */,
+				ABD2195C1857DF1C0031FFC1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD219711857DF1C0031FFC1 /* bitcoinaverageTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD219771857DF1C0031FFC1 /* bitcoinaverageTests.m */,
+				ABD219721857DF1C0031FFC1 /* Supporting Files */,
+			);
+			path = bitcoinaverageTests;
+			sourceTree = "<group>";
+		};
+		ABD219721857DF1C0031FFC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD219731857DF1C0031FFC1 /* bitcoinaverageTests-Info.plist */,
+				ABD219741857DF1C0031FFC1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD219491857DF1C0031FFC1 /* bitcoinaverage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD2197B1857DF1C0031FFC1 /* Build configuration list for PBXNativeTarget "bitcoinaverage" */;
+			buildPhases = (
+				ABD219461857DF1C0031FFC1 /* Sources */,
+				ABD219471857DF1C0031FFC1 /* Frameworks */,
+				ABD219481857DF1C0031FFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bitcoinaverage;
+			productName = bitcoinaverage;
+			productReference = ABD2194A1857DF1C0031FFC1 /* bitcoinaverage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABD2196A1857DF1C0031FFC1 /* bitcoinaverageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD2197E1857DF1C0031FFC1 /* Build configuration list for PBXNativeTarget "bitcoinaverageTests" */;
+			buildPhases = (
+				ABD219671857DF1C0031FFC1 /* Sources */,
+				ABD219681857DF1C0031FFC1 /* Frameworks */,
+				ABD219691857DF1C0031FFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD219701857DF1C0031FFC1 /* PBXTargetDependency */,
+			);
+			name = bitcoinaverageTests;
+			productName = bitcoinaverageTests;
+			productReference = ABD2196B1857DF1C0031FFC1 /* bitcoinaverageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD219421857DF1C0031FFC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BTCA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Jonathan;
+				TargetAttributes = {
+					ABD2196A1857DF1C0031FFC1 = {
+						TestTargetID = ABD219491857DF1C0031FFC1;
+					};
+				};
+			};
+			buildConfigurationList = ABD219451857DF1C0031FFC1 /* Build configuration list for PBXProject "bitcoinaverage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABD219411857DF1C0031FFC1;
+			productRefGroup = ABD2194B1857DF1C0031FFC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD219491857DF1C0031FFC1 /* bitcoinaverage */,
+				ABD2196A1857DF1C0031FFC1 /* bitcoinaverageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD219481857DF1C0031FFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD219581857DF1C0031FFC1 /* InfoPlist.strings in Resources */,
+				ABD219661857DF1C0031FFC1 /* Images.xcassets in Resources */,
+				ABD2195E1857DF1C0031FFC1 /* Credits.rtf in Resources */,
+				ABD219641857DF1C0031FFC1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD219691857DF1C0031FFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD219761857DF1C0031FFC1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD219461857DF1C0031FFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD219611857DF1C0031FFC1 /* BTCAAppDelegate.m in Sources */,
+				ABD2195A1857DF1C0031FFC1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD219671857DF1C0031FFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD219781857DF1C0031FFC1 /* bitcoinaverageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD219701857DF1C0031FFC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD219491857DF1C0031FFC1 /* bitcoinaverage */;
+			targetProxy = ABD2196F1857DF1C0031FFC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABD219561857DF1C0031FFC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD219571857DF1C0031FFC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABD2195C1857DF1C0031FFC1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD2195D1857DF1C0031FFC1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ABD219621857DF1C0031FFC1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD219631857DF1C0031FFC1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ABD219741857DF1C0031FFC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD219751857DF1C0031FFC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABD219791857DF1C0031FFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABD2197A1857DF1C0031FFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABD2197C1857DF1C0031FFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitcoinaverage/bitcoinaverage-Prefix.pch";
+				INFOPLIST_FILE = "bitcoinaverage/bitcoinaverage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABD2197D1857DF1C0031FFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitcoinaverage/bitcoinaverage-Prefix.pch";
+				INFOPLIST_FILE = "bitcoinaverage/bitcoinaverage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABD2197F1857DF1C0031FFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bitcoinaverage.app/Contents/MacOS/bitcoinaverage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitcoinaverage/bitcoinaverage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bitcoinaverageTests/bitcoinaverageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABD219801857DF1C0031FFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bitcoinaverage.app/Contents/MacOS/bitcoinaverage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bitcoinaverage/bitcoinaverage-Prefix.pch";
+				INFOPLIST_FILE = "bitcoinaverageTests/bitcoinaverageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD219451857DF1C0031FFC1 /* Build configuration list for PBXProject "bitcoinaverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD219791857DF1C0031FFC1 /* Debug */,
+				ABD2197A1857DF1C0031FFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD2197B1857DF1C0031FFC1 /* Build configuration list for PBXNativeTarget "bitcoinaverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD2197C1857DF1C0031FFC1 /* Debug */,
+				ABD2197D1857DF1C0031FFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABD2197E1857DF1C0031FFC1 /* Build configuration list for PBXNativeTarget "bitcoinaverageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD2197F1857DF1C0031FFC1 /* Debug */,
+				ABD219801857DF1C0031FFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD219421857DF1C0031FFC1 /* Project object */;
+}
