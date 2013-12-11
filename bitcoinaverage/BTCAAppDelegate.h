@@ -10,6 +10,10 @@
 
 @interface BTCAAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *tickerTimeStampLabel;
+@property (weak) IBOutlet NSTextField *bidLabel;
+@property (weak) IBOutlet NSTextField *askLabel;
+@property (weak) IBOutlet NSTextField *dayAvelabel;
+@property (weak) IBOutlet NSPopUpButton *currency;
 
 @end

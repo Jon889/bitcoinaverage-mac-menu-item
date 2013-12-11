@@ -18,6 +18,7 @@
 		ABD2196E1857DF1C0031FFC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD2194D1857DF1C0031FFC1 /* Cocoa.framework */; };
 		ABD219761857DF1C0031FFC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABD219741857DF1C0031FFC1 /* InfoPlist.strings */; };
 		ABD219781857DF1C0031FFC1 /* bitcoinaverageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD219771857DF1C0031FFC1 /* bitcoinaverageTests.m */; };
+		ABF584301857EBA100BABB2A /* BTCAAPIDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF5842F1857EBA100BABB2A /* BTCAAPIDownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,10 @@
 		ABD219731857DF1C0031FFC1 /* bitcoinaverageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bitcoinaverageTests-Info.plist"; sourceTree = "<group>"; };
 		ABD219751857DF1C0031FFC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABD219771857DF1C0031FFC1 /* bitcoinaverageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bitcoinaverageTests.m; sourceTree = "<group>"; };
+		ABF5842E1857EBA100BABB2A /* BTCAAPIDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCAAPIDownloader.h; sourceTree = "<group>"; };
+		ABF5842F1857EBA100BABB2A /* BTCAAPIDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCAAPIDownloader.m; sourceTree = "<group>"; };
+		ABF584311857F59D00BABB2A /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = "../../Downloads/CorePlot_1-2.4/Binaries/MacOS/CorePlot.framework"; sourceTree = "<group>"; };
+		ABF584331857F5B400BABB2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +100,8 @@
 		ABD2194C1857DF1C0031FFC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABF584331857F5B400BABB2A /* QuartzCore.framework */,
+				ABF584311857F59D00BABB2A /* CorePlot.framework */,
 				ABD2194D1857DF1C0031FFC1 /* Cocoa.framework */,
 				ABD2196C1857DF1C0031FFC1 /* XCTest.framework */,
 				ABD2194F1857DF1C0031FFC1 /* Other Frameworks */,
@@ -117,6 +124,8 @@
 			children = (
 				ABD2195F1857DF1C0031FFC1 /* BTCAAppDelegate.h */,
 				ABD219601857DF1C0031FFC1 /* BTCAAppDelegate.m */,
+				ABF5842E1857EBA100BABB2A /* BTCAAPIDownloader.h */,
+				ABF5842F1857EBA100BABB2A /* BTCAAPIDownloader.m */,
 				ABD219621857DF1C0031FFC1 /* MainMenu.xib */,
 				ABD219651857DF1C0031FFC1 /* Images.xcassets */,
 				ABD219541857DF1C0031FFC1 /* Supporting Files */,
@@ -254,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABD219611857DF1C0031FFC1 /* BTCAAppDelegate.m in Sources */,
+				ABF584301857EBA100BABB2A /* BTCAAPIDownloader.m in Sources */,
 				ABD2195A1857DF1C0031FFC1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +395,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jonathan/Downloads/CorePlot_1-2.4/Binaries/MacOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bitcoinaverage/bitcoinaverage-Prefix.pch";
 				INFOPLIST_FILE = "bitcoinaverage/bitcoinaverage-Info.plist";
@@ -398,6 +412,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/jonathan/Downloads/CorePlot_1-2.4/Binaries/MacOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bitcoinaverage/bitcoinaverage-Prefix.pch";
 				INFOPLIST_FILE = "bitcoinaverage/bitcoinaverage-Info.plist";
@@ -465,6 +483,7 @@
 				ABD2197D1857DF1C0031FFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABD2197E1857DF1C0031FFC1 /* Build configuration list for PBXNativeTarget "bitcoinaverageTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +492,7 @@
 				ABD219801857DF1C0031FFC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
