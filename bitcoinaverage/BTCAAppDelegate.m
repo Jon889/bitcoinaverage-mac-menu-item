@@ -59,7 +59,7 @@
                            @"NZD": @"NZ$",
                            @"RUB": @"руб "};
     NSString *key = [self.currency.selectedItem title];
-    return dict[key ?: @"USD"];
+    return dict[key ?: @"USD"] ?: key;
 }
 -(void)downloader:(BTCAAPIDownloader *)downloader valueDidUpdate:(NSDictionary *)json {
     if ([downloader.method isEqualToString:@"ticker"]) {
